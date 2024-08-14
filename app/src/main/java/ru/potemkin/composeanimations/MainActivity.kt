@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import ru.potemkin.composeanimations.ui.screen.AnimateContent
 import ru.potemkin.composeanimations.ui.screen.Test
 import ru.potemkin.composeanimations.ui.theme.ComposeAnimationsTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposeAnimationsTheme {
-                Test()
+                AnimateContent()
             }
         }
     }
